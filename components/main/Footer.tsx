@@ -26,7 +26,11 @@ const Footer = () => {
             Build fully functional accessible web applications faster than ever
           </p > */}
            <h1 className=" font font-bold ml-[20px] text-[16px] hidden md:block my-[10px] text-white flex flex-row items-center cursor-pointer">Contact</h1>
-          <p className="font ml-[20px] text-[16px] hidden md:block text-white flex flex-row items-center cursor-pointer">metaxperts@gmail.com</p>
+          {/* <p className="font ml-[20px] text-[16px] hidden md:block text-white flex flex-row items-center cursor-pointer">info@metaxperts.net</p> */}
+          <a href="mailto:info@metaxperts.net" className="font ml-[20px] text-[16px] hidden md:block text-white flex flex-row items-center cursor-pointer">
+                info@metaxperts.net
+        </a>
+
           <h1 className="font font-bold ml-[20px] text-[16px] hidden md:block my-[10px] text-white flex flex-row items-center cursor-pointer">Office</h1>
           <p className="font ml-[20px] text-[16px] hidden md:block text-white flex flex-row items-center cursor-pointer">Sublime chowk, Al-khalil Center, Sialkot</p>
         </div>
@@ -34,24 +38,24 @@ const Footer = () => {
                 <div className="font min-w-[200px] h-auto flex flex-col justify-start">
                     <div className="font-bold text-[16px] my-[20px] " >Community</div>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
-                        {/* <FaYoutube /> */}
+                        {/* <Youtube /> */}
                         <img src="/youtube.png" alt="youtube" width={20} height={20} />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
+                        <a href="https://www.youtube.com/metaxperts.net/"><span className="text-[15px] ml-[6px]">Youtube</span></a> 
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxGithubLogo /> */}
                         <img src="/gitwhite.png" alt="Github" width={20} height={20} />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                        <a href="https://github.com/orgs/metaxperts/"><span className="text-[15px] ml-[6px]">Github</span>   </a> 
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxDiscordLogo /> */}
                         <img src="/discord_.png" alt="Discord" width={20} height={20} />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
+                        <a href="https://www.discord.com/metaxperts.net/"><span className="text-[15px] ml-[6px]">Discord</span></a>    
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxDiscordLogo /> */}
                         <img src="/dribble.png" alt="Dribble" width={20} height={20} />
-                        <span className="text-[15px] ml-[6px]">Dribble</span>    
+                        <a href="https://dribbble.com/metaxperts.net/"><span className="text-[15px] ml-[6px]">Dribble</span> </a>   
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col justify-start">
@@ -59,23 +63,23 @@ const Footer = () => {
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxDiscordLogo /> */}
                         <img src="/facebook.png" alt="Facebook" width={15} height={15} />
-                        <span className="text-[15px] ml-[6px]">Facebook</span>    
+                        <a href="https://www.facebook.com/metaxperts.net/"><span className="text-[15px] ml-[6px]">Facebook</span>  </a>  
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <FaYoutube /> */}
                         <img src="/instagram.png" alt="Instagram" width={15} height={15} />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        <a href="https://www.instagram.com/metaxperts/"><span className="text-[15px] ml-[6px]">Instagram</span>  </a>  
                     </p>
                    
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxDiscordLogo /> */}
                         <img src="/linkedin.png" alt="Linkedin" width={15} height={15} />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <a href="https://www.linkedin.com/company/meta-xperts/mycompany/"> <span className="text-[15px] ml-[6px]">Linkedin</span>  </a>  
                     </p>
                     <p className="flex flex-row items-center my-[10px] cursor-pointer">
                         {/* <RxGithubLogo /> */}
                         <img src="/twitter.png" alt="Twitter" width={15} height={15} />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
+                        <a href="https://twitter.com/metaxperts.net/"> <span className="text-[15px] ml-[6px]">Twitter</span> </a>   
                     </p>
                  
                 </div>

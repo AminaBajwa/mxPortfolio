@@ -66,24 +66,10 @@ const Header = () => {
       </ul>
      
        
-        {/* <ul id="collapseMenu" className='lg:!flex lg:space-x-4 max-lg:space-y-2 max-lg:hidden max-lg:py-4 max-lg:w-full lg:border lg:border-[#1d4137] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200'>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#about-me"
-            className=' text-[#fff] block font-semibold text-[15px]'>About Us</Link>
-        </li>
-          <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'>
-            <Link href="#skills"
-              className=' text-[#fff] block font-semibold text-[15px]'>Services</Link>
-          </li>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#projects" 
-            className=' text-[#fff] block font-semibold text-[15px]'>Projects</Link>
-        </li>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#contact"
-            className='text-[#fff] block font-semibold text-[15px]'>Contact</Link>
-        </li>
-        
-      </ul> */}
+      
        
-      <div className="lg:flex lg:flex-row gap-3 max-lg:ml-auto lg:ml-24 hidden">
+       
+      {/* <div className="lg:flex lg:flex-row gap-3 max-lg:ml-auto lg:ml-24 hidden">
         {Socials.map((social) => (
             <Image
               src={social.src}
@@ -93,7 +79,21 @@ const Header = () => {
               height={18}
             />
           ))}
-        </div>
+        </div> */}
+
+<div className="lg:flex lg:flex-row gap-3 max-lg:ml-auto lg:ml-24 hidden">
+  {Socials.map((social) => (
+    <a key={social.name} href={social.ref} target="_blank" rel="noopener noreferrer">
+      <Image
+        src={social.src}
+        alt={social.name}
+        width={18}
+        height={18}
+      />
+    </a>
+  ))}
+</div>
+
         
     </div>
   </header>

@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div
       className="font flex flex-col items-center justify-center py-20"
-      id="projects"
+      id="#projects"
     >
       <h1 className="font text-[40px] font-bold text-transparent bg-clip-text bg-white">
         Our Projects

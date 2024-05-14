@@ -36,6 +36,7 @@ const EmailSection = () => {
   return (
     <>
        <div
+       id='contact'
         className='max-w-screen-xl mx-auto text-center text-white'
         >
         <h1 className="text-4xl max-sm:text-3xl font-extrabold leading-tight">Contact Us</h1>
@@ -67,8 +68,8 @@ const EmailSection = () => {
           /> */}
         </div>
       </div>
-      <div className="lg:w-full lg:mt-10">
-        <form ref={form} onSubmit={sendEmail} className="p-8 rounded-lg shadow-md">
+      <div className="lg:w-full lg:mt-10 z-10">
+        <form ref={form} onSubmit={sendEmail} className="p-8 rounded-lg shadow-md ">
           <div className="mb-4">
             <label className="block text-gray-200 font-bold mb-2">Name</label>
             <input

@@ -37,9 +37,10 @@ className=" text-[#333] max-w-6xl max-md:max-w-md mx-4 mx-auto z-50">
       className="mt-4 text-base text-gray-400 leading-relaxed">We are a leading ERP software solutions company, dedicated to providing custom software solutions that redefine business operations. Our expertise and commitment ensure that our tailored solutions align perfectly with our clients objectives.</motion.p>
       <div className="mt-10 space-x-4">
 
-        <motion.button 
+        <motion.a 
+        href="#contact"
         variants={slideInFromLeft(1)}
-        type="button" className=" text-white font-bold text-sm px-8 py-2 bg-[#1d4137] text-center cursor-pointer rounded-lg max-w-[200px] duration-300" whileHover={{ scale: 1.1 }}>Contact Us</motion.button>
+        className=" text-white font-bold text-sm px-10 py-4 bg-[#1d4137] text-center cursor-pointer rounded-lg max-w-[200px] duration-300" whileHover={{ scale: 1.1 }}>Contact Us</motion.a>
 
       </div>
       

@@ -4,9 +4,8 @@ import React from 'react';
 import Image from "next/image";
 const FintechProjects = () => {
   return (
-    <div className="container max-w-6xl max-md:max-w-md mx-auto z-50">
-
-
+    
+    <div id="projects" className="container max-w-6xl max-md:max-w-md mx-auto z-50 ">
 
 
 <div className="px-6 sm:py-20 py-10">
