@@ -13,6 +13,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Custom Software Solutions by MetaXperts",
   description: "Elevate your business with MetaXperts. Explore our portfolio for cutting-edge software solutions, crafted for innovation and success.",
+  icons:{
+    icon:['/favicon.co?v=4'],
+    apple:['/apple-touch-icon.png?v=4'],
+    shortcut:['/apple-touch-icon.png'],
+  }
 };
 
 export default function RootLayout({

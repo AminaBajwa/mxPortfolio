@@ -16,7 +16,7 @@ const HeroContent = () => {
   <motion.div 
 initial="hidden"
 animate="visible"
-className=" text-[#333] max-w-6xl max-md:max-w-md mx-4 mx-auto z-50">
+className=" text-[#333] max-w-6xl max-md:max-w-md mx-auto z-50">
   <div className="grid md:grid-cols-2 items-center md:gap-8 gap-6">
     <motion.div
      variants={slideInFromLeft(0.5)}
