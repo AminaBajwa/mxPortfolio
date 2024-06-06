@@ -99,7 +99,7 @@ export const Skill_data = [
     {
       name: "Facebook",
       src: "/facebook.png",
-      ref: "https://www.facebook.com/metaxperts.net/"
+      ref: "https://www.facebook.com/metaxperts/"
     },
     {
       name: "Instagram",
@@ -109,22 +109,22 @@ export const Skill_data = [
     {
       name: "LinkedIn",
       src: "/linkedin.png",
-      ref: "https://www.linkedin.com/company/meta-xperts/mycompany/"
+      ref: "https://www.linkedin.com/company/meta-xperts/"
     },
     {
       name: "X",
       src: "/twitter.png",
-      ref:"https://twitter.com/metaxperts.net/"
+      ref:"https://twitter.com/metaxperts"
     },
     {
-      name: "Dribble",
+      name: "Dribbble",
       src: "/dribble.png",
-      ref: "https://dribbble.com/metaxperts.net/"
+      ref: "https://dribbble.com/@metaxperts"
     },
     {
       name: "Youtube",
       src: "/youtube.png",
-      ref: "https://www.youtube.com/metaxperts.net/"
+      ref: "https://www.youtube.com/@metaxperts"
     },
     
   ];

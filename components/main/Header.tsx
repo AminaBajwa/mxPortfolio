@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import Link from "next/link";
 import { Socials } from "@/constants";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Header = () => {
 
@@ -25,7 +25,7 @@ const Header = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
+          <img
             src="/MetaXperts.png"
             alt="logo"
             width={50}
@@ -48,18 +48,18 @@ const Header = () => {
         </div>
 
        
-        <ul id="collapseMenu" className='lg:!flex lg:space-x-4 max-lg:space-y-2 max-lg:hidden max-lg:py-4 max-lg:w-full lg:border lg:border-[#1d4137] bg-[#0300145e] lg:ml-20 px-[20px] py-[10px] rounded-full text-gray-200'>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#about-me"
+        <ul id="collapseMenu" className='lg:!flex lg:space-x-4 max-lg:space-y-2 max-lg:hidden max-lg:py-4 max-lg:w-full lg:border lg:border-[#603786] bg-[#0300145e] lg:ml-20 px-[20px] py-[10px] rounded-full text-gray-200'>
+        <li className='cursor-pointer button-pri px-4 py-1 rounded-full transition duration-300'><Link href="#about-me"
             className=' text-[#fff] block font-semibold text-[15px]'>About Us</Link>
         </li>
-          <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'>
+          <li className='cursor-pointer button-pri px-4 py-1 rounded-full transition duration-300'>
             <Link href="#skills"
               className=' text-[#fff] block font-semibold text-[15px]'>Services</Link>
           </li>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#projects" 
+        <li className='cursor-pointer button-pri px-4 py-1 rounded-full transition duration-300'><Link href="#projects" 
             className=' text-[#fff] block font-semibold text-[15px]'>Projects</Link>
         </li>
-        <li className='cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300'><Link href="#contact"
+        <li className='cursor-pointer button-pri px-4 py-1 rounded-full transition duration-300'><Link href="#contact"
             className='text-[#fff] block font-semibold text-[15px]'>Contact</Link>
         </li>
         
@@ -84,7 +84,7 @@ const Header = () => {
 <div className="lg:flex lg:flex-row gap-3 max-lg:ml-auto lg:ml-24 hidden">
   {Socials.map((social) => (
     <a key={social.name} href={social.ref} target="_blank" rel="noopener noreferrer">
-      <Image
+      <img
         src={social.src}
         alt={social.name}
         width={18}
