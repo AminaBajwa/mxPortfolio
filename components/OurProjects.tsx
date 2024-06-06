@@ -1,54 +1,78 @@
 
 
 import React from 'react';
-import Image from "next/image";
+// import Image from "next/image";
 const FintechProjects = () => {
   return (
     
-    <div id="projects" className="container max-w-6xl max-md:max-w-md mx-auto z-50 ">
+<div id="projects" className="container max-w-6xl max-md:max-w-md mx-auto z-50 ">
 
 
 <div className="px-6 sm:py-20 py-10">
   <div className="max-w-screen-xl mx-auto text-center text-white">
-    <h1 className="text-4xl max-sm:text-3xl font-extrabold leading-tight mb-4">Our Projects</h1>
-    <p className="text-lg mb-8 text-gray-400">The projects we deliver are always based on a great idea requiring a unique software solution. The scope of our projects ranges from individual software for startups to large scale national and international solutions.</p>
+  <h2 className="md:text-xl text-xl text-[#9615db] mt-10 mb-6 uppercase">DELIVERED PROJECTS</h2>
+  <h4 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">See how MetaXperts clients are revolutionizing tech.</h4>
+  {/* <p className="text-white mt-8">MetaXperts delivers unmatched expertise with custom ERP solutions tailored to your business needs. Our commitment to excellence ensures superior quality and client-focused support, backed by a proven track record of successful projects. Trust us to elevate your operations with innovative, reliable solutions.</p> */}
+  </div>
+</div>
+{/* bg-[#03001417] */}
+{/* shadow-[0_2px_10px_-3px_#9615db]  */}
+<div className="bg-[#03001417] backdrop-blur-md z-50 my-4">
+  <div className="max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-16 max-md:max-w-lg mx-auto">
+      
+    <div className="bg-[#03001417] backdrop-blur-md cursor-pointer rounded overflow-hidden relative top-0 hover:-top-2 transition-all duration-300 m-10">
+        <img src="/erp03.png" alt="Blog Post 2" className="w-full h-[450px]" />
+        <div className="p-6">
+          <span className="text-sm block text-gray-400 mb-2 uppercase">Business Management Software</span>
+          <h3 className="text-xl font-bold text-gray-200">E R P Solutions</h3>
+          <hr className="my-6" />
+          <p className="text-gray-400 text-sm">This app seamlessly connects people, places, and processes for effortless management and data-driven decisions.</p>
+        </div>
+    </div>
+
+      <div className="bg-[#03001417] backdrop-blur-md cursor-pointer rounded overflow-hidden  relative top-0 hover:-top-2 transition-all duration-300 m-10">
+        <img src="/Obapp.png" alt="Blog Post 1" className="w-full h-[450px] " />
+        <div className="p-6">
+          <span className="text-sm block text-gray-400 mb-2">MOBILE APP DEVELOPMENT</span>
+          <h3 className="text-xl font-bold text-gray-200">Order Booking App</h3>
+          <hr className="my-6 text-gray-900" />
+          <p className="text-gray-400 text-sm">This app is designed to simplify & optimize the order management process for businesses, ensuring seamless and efficient operations.</p>
+        </div>
+      </div>
+
+      <div className="bg-[#03001417] backdrop-blur-md cursor-pointer rounded overflow-hidden relative top-0 hover:-top-2 transition-all duration-300 m-10">
+        <img src="/zipzapp.png" alt="Blog Post 3" className="w-full h-[450px]" />
+        <div className="p-6">
+          <span className="text-sm block text-gray-400 mb-2 uppercase">MOBILE APP DEVELOPMENT</span>
+          <h3 className="text-xl font-bold text-gray-200">Zip Zap</h3>
+          <hr className="my-6" />
+          <p className="text-gray-400 text-sm">Enjoy seamless parcel delivery from your doorstep with Zip Zap. Choose from various vehicle options, enter the delivery address in our app, and track your parcel in real-time.</p>
+        </div>
+      </div>
+
+      <div className="bg-[#03001417] backdrop-blur-md cursor-pointer rounded overflow-hidden relative top-0 hover:-top-2 transition-all duration-300 m-10">
+        <img src="/IMS.png" alt="Blog Post 3" className="w-full h-[450px]" />
+        <div className="p-6">
+          <span className="text-sm block text-gray-400 mb-2 uppercase">Business Management Software</span>
+          <h3 className="text-xl font-bold text-gray-200">Inventory System</h3>
+          <hr className="my-6" />
+          <p className="text-gray-400 text-sm">A centralized platform to oversee stock, purchases, various order types (PRRs, SOs, SRs, POs), and individual items.</p>
+        </div>
+      </div>
+
+    
+      
+    </div>
   </div>
 </div>
 
-
-
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mx-12">
-  {fintechProjects.map((project, index) => (
-    <div key={index}
-    className="text-gray-200 bg-[#03001417] backdrop-blur-md z-50 p-4 flex flex-col items-center shadow-xl shadow-gray-800/50 from-white to-black dark:from-black dark:to-gray-800 via-gray-800 after:content-[' '] after:absolute after:w-full after:h-full after:top-1/2 after:-translate-y-1/2 after:shadow-xl after:shadow-gray-800/50 dark:after:shadow-gray-800/50 shadow"
-    >
-        <Image
-            src={project.imageSrc}
-            alt={project.title}
-            width={130}
-            height={100}
-            className="w-50 h-20 object-contain mb-4"
-          />
-      <h2 className="text-2xl font-bold mb-4 text-center">{project.title}</h2>
-      <p className="text-gray-400 mb-4 text-center">{project.description}</p>
-      {/* <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-        <a className="Welcome-text text-[14px] bg-[#1d4137]">Explore</a>
-      </div> */}
-    </div>
-  ))}
-</div>
     </div>
   );
 };
 
 const fintechProjects = [
-  {
-    title: 'MetaXperts',
-    description:
-      'A leading ERP software solutions company, dedicated to providing custom software solutions that redefine business operations.',
-      imageSrc: '/MetaXperts.png',
-    exploreHref: '#',
-  },
+ 
   {
     title: 'Order Booking App',
     description:

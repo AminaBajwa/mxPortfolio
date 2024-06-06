@@ -15,7 +15,7 @@ const ProjectCard1 = ({ src, title, description }: Props) => {
         <h1 className="text-2xl font-semibold text-white mb-10">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
-      <Image
+      <img
         src={src}
         alt={title}
         width={400}

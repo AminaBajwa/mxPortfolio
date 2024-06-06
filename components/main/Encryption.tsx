@@ -13,7 +13,7 @@ const Encryption = () => {
           variants={slideInFromTop}
           className="font text-[40px] font-bold text-center text-gray-200"
         >
-           <h1 className="text-4xl max-sm:text-3xl font-extrabold leading-tight mb-4">Performance & Security</h1>
+           <h1 className="text-4xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Performance & Security</h1>
           
           {/* <span className="text-transparent bg-clip-text bg-gradient-to-rfrom-[#a29347] to-[#1d4137]">
             {" "}
@@ -25,14 +25,14 @@ const Encryption = () => {
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
-          <Image
+          <img
             src="/LockTop.png"
             alt="Lock top"
             width={50}
             height={50}
             className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
-          <Image
+          <img
             src="/LockMain.png"
             alt="Lock Main"
             width={70}
@@ -59,7 +59,7 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm/"
+          src="/encryption.mp4/"
         />
       </div>
     </div>

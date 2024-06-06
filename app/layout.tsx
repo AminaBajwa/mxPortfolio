@@ -7,14 +7,17 @@ import Footer from "@/components/main/Footer";
 import ContactUs from "@/components/main/ContactUs";
 import EmailSection from "@/components/main/EmailSection";
 import Header from "@/components/main/Header";
+import MainHeader from "@/components/main/MainHeader";
+import MainMenu from "@/components/main/MainMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Custom Software Solutions by MetaXperts",
+  // title: "Custom Software Solutions by MetaXperts",
+  title: "MetaXperts",
   description: "Elevate your business with MetaXperts. Explore our portfolio for cutting-edge software solutions, crafted for innovation and success.",
   icons:{
-    icon:['/favicon.co?v=4'],
+    icon:['/favicon.ico?v=4'],
     apple:['/apple-touch-icon.png?v=4'],
     shortcut:['/apple-touch-icon.png'],
   }
@@ -32,7 +35,9 @@ export default function RootLayout({
       >
         <StarsCanvas />
         {/* <Navbar /> */}
-        <Header/>
+        {/* <Header/> */}
+        {/* <MainHeader/> */}
+        <MainMenu/>
         {children}
         {/* <ContactUs/> */}
         {/* <EmailSection/> */}

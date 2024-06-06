@@ -10,7 +10,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
+          <img
             src="/MetaXperts.png"
             alt="logo"
             width={50}
@@ -24,17 +24,17 @@ const Navbar = () => {
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 ml-[90px] text-[16px]">
-          <div className="flex items-center justify-between w-full h-auto border border-[#1d4137] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300">
+          <div className="flex items-center justify-between w-full h-auto border border-[#603786] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+            <a href="#about-me" className="cursor-pointer hover:bg-[#603786] px-4 py-1 rounded-full transition duration-300">
               About Us
             </a>
-            <a href="#skills" className="cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300">
+            <a href="#skills" className="cursor-pointer hover:bg-[#603786] px-4 py-1 rounded-full transition duration-300">
               Services
             </a>
-            <a href="#projects" className="cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300">
+            <a href="#projects" className="cursor-pointer hover:bg-[#603786] px-4 py-1 rounded-full transition duration-300">
               Projects
             </a>
-            <a href="#contact" className="cursor-pointer hover:bg-[#1d4137] px-4 py-1 rounded-full transition duration-300">
+            <a href="#contact" className="cursor-pointer hover:bg-[#603786] px-4 py-1 rounded-full transition duration-300">
               Contact
             </a>
            
@@ -43,7 +43,7 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-3">
           {Socials.map((social) => (
-            <Image
+            <img
               src={social.src}
               alt={social.name}
               key={social.name}
